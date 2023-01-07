@@ -42,7 +42,7 @@ const question = async () =>{
         );
         console.log(table.toString())
         if(response.value === answer) {
-            console.log('Congratulations! Answer is correct')
+            console.log('Congratulations! Answer is correct.')
             return;
         }
         question();
